@@ -1,0 +1,133 @@
+/*COLORS
+     Rose Quartz: #F3E3E2
+     Rose Red: #74112F
+     Dark Blue: #0C0C1E
+     midnight Blue: #1B2E3C
+*/
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     text-align: center;
+     background-color: #F3E3E2;
+     margin-left: 25px;
+     margin-right: 25px;
+}
+
+#spr{
+     background-color: #F3E3E2;
+     height: 15px;
+}
+
+#navbar{
+     display: block;
+     background-color: #0C0C1E;
+     color: #1B2E3C;
+}
+
+#navbar li{
+     display: inline-block;
+     list-style: none;
+     padding: 15px;
+     margin: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 25px;
+}
+
+#navbar li a{
+     text-decoration: none;
+     color: #1B2E3C;
+}
+
+#navbar a:hover{
+     background-color: #F3E3E2;
+     color: #0C0C1E;
+}
+
+#aboutme{
+     display: grid;
+     border: solid;
+     border-color: #1B2E3C;
+     border-radius: 15px;
+}
+
+#profile{
+     grid-column: 2;
+     grid-row: 1/5;
+     padding: 5px;
+     margin: 5px;
+     text-align: center;
+     height: 240px;
+}
+
+#name{
+     background-color: #0C0C1E;
+     border-radius: 10px;
+     grid-column: 4/6;
+     grid-row: 1;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 35px;
+     color: #F3E3E2;
+}
+
+#contact{
+     color: #1B2E3C;
+     grid-row:2/5;
+     grid-column: 4/6;
+}
+
+#contact li{
+     list-style: none;
+     padding: 5px;
+     margin: 5px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 15px;
+}
+
+#contact li a{
+     text-decoration: none;
+     color: #1B2E3C;
+}
+
+#contact a:hover{
+     background-color: #0C0C1E;
+     color: #F3E3E2;
+}
+
+#info{
+     border: solid;
+     border-radius: 15px;
+     border-color: #0C0C1E;
+}
+
+#infoTitle{
+     background-color: #0C0C1E;
+     border-radius: 10px;
+     color: #F3E3E2;
+     padding: 5px;
+}
+
+#info p{
+     padding: 5px;
+     margin: 5px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 15px;
+     color: #1B2E3C;
+}
+
+footer{
+     background-color: #0C0C1E;
+     color: #F3E3E2;
+     padding: 5px;
+     margin: 5px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     font-size: 15px;
+}
